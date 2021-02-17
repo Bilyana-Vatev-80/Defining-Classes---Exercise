@@ -2,13 +2,14 @@ package PO2_CompanyRoster;
 
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner (System.in);
 
-        HashMap <String,Department> departments = new HashMap<>();
+        Map<String,Department> departments = new HashMap<>();
         int n = Integer.parseInt(scanner.nextLine());
 
         for (int i = 0; i < n; i++) {
